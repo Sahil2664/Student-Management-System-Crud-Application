@@ -6,7 +6,7 @@ import com.sahil.demo.DTO.UpdateStudentRequestDTO;
 import com.sahil.demo.DTO.UpdateStudentResponseDTO;
 import com.sahil.demo.Entity.Student;
 import com.sahil.demo.Service.StudentService;
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
