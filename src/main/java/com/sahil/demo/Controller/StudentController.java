@@ -6,8 +6,7 @@ import com.sahil.demo.DTO.UpdateStudentRequestDTO;
 import com.sahil.demo.DTO.UpdateStudentResponseDTO;
 import com.sahil.demo.Entity.Student;
 import com.sahil.demo.Service.StudentService;
-import jakarta.validation.Valid;
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,7 +18,6 @@ public class StudentController {
 
     private final StudentService studentService;
 
-    @Autowired
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
     }

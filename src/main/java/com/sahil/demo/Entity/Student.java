@@ -1,6 +1,6 @@
 package com.sahil.demo.Entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity

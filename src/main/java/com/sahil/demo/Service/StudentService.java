@@ -6,19 +6,16 @@ import com.sahil.demo.DTO.UpdateStudentRequestDTO;
 import com.sahil.demo.DTO.UpdateStudentResponseDTO;
 import com.sahil.demo.Entity.Student;
 import com.sahil.demo.Repository.StudentRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class StudentService {
     
     private final StudentRepository studentRepository;
 
-    @Autowired
     public StudentService(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
     }
