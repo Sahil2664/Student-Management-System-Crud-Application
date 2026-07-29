@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
+@SuppressWarnings("all")
 public class StudentService {
     
     private final StudentRepository studentRepository;
